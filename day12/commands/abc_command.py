@@ -1,0 +1,6 @@
+from abc import ABC, abstractmethod
+
+class Instruction(ABC):
+  @abstractmethod
+  def execute(self, grid: list[list[int]]):
+    pass
